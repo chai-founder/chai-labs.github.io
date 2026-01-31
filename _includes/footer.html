@@ -1,0 +1,30 @@
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="footer__brand">CHAI Labs</div>
+      <div class="muted">AI products built for real-world workflows.</div>
+    </div>
+
+    <div>
+      <div class="footer__title">Product</div>
+      <a href="{{ '/platform/' | relative_url }}">Platform</a>
+      <a href="{{ '/solutions/' | relative_url }}">Solutions</a>
+    </div>
+
+    <div>
+      <div class="footer__title">Company</div>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a href="{{ '/resources/' | relative_url }}">Resources</a>
+    </div>
+
+    <div>
+      <div class="footer__title">Legal</div>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <small class="muted">© {{ "now" | date: "%Y" }} CHAI Labs</small>
+  </div>
+</footer>

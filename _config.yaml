@@ -1,0 +1,11 @@
+title: "CHAI Labs"
+description: "Practical AI products with a people-first ethos."
+url: "https://chai-labs.com"
+# If this is a PROJECT site (username.github.io/repo), set baseurl: "/repo"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-feed
