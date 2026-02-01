@@ -27,9 +27,9 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
     <p class="muted">We choose to not look the other way.</p>
     <div class="cards">
       <div class="card">
-        <h3>CHAI Blend (Books)</h3>
-        <p>Explain *why* readers love a book — beyond star ratings — using interpretable signals.</p>
-        <a class="link" href="{{ '/resources/' | relative_url }}">Read more →</a>
+        <h3>The Blend</h3>
+        <p>The Blend is our first impactful solution designed to change the way we decide our next book.</p>
+        <a class="link" href="{{ '/resources/' | relative_url }}">See how we are changing the industry →</a>
       </div>
       <div class="card">
         <h3>CHAI XYZ</h3>
@@ -43,14 +43,14 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
 <section class="section section--alt">
   <div class="container split">
     <div>
-      <h2>Designed for decision-makers</h2>
+      <h2>The CHAI tao</h2>
       <p class="muted">
-        Clear outputs. Transparent reasoning. Evidence you can trace.
+        Love and compassion.
       </p>
       <ul class="list">
-        <li><strong>Audit-friendly</strong> — keep sources and rationale attached to outputs</li>
-        <li><strong>Configurable</strong> — adapt to your rubric and policies</li>
-        <li><strong>Fast</strong> — shorten cycles without sacrificing quality</li>
+        <li><strong>Love</strong> — keep sources and rationale attached to outputs</li>
+        <li><strong>Compassion</strong> — adapt to your rubric and policies</li>
+        <li><strong>Community</strong> — shorten cycles without sacrificing quality</li>
       </ul>
     </div>
     <div class="quote">
@@ -60,6 +60,7 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
   </div>
 </section>
 
+<!--
 <section class="section">
   <div class="container cta">
     <div>
@@ -69,3 +70,4 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
     <a class="btn btn--lg" href="{{ '/contact/' | relative_url }}">Request a demo</a>
   </div>
 </section>
+--->
