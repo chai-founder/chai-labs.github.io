@@ -8,9 +8,10 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
   <div class="container hero__grid">
     <div class="hero__copy">
       <div class="pill">Bringing People & AI closer together</div>
-      <h1>CHAI Labs - products designed to be warm and spicy.</h1>
+      <h1>CHAI Labs</h1>
       <p class="lead">
-        CHAI Labs builds practical AI solutions designed to help communities flourish.
+        Products designed to be warm and spicy.
+         <!-- CHAI Labs builds practical AI solutions designed to help communities flourish....-->
       </p>
       <div class="hero__actions">
         <a class="btn btn--lg" href="{{ '/contact/' | relative_url }}">Get in touch</a>
@@ -22,24 +23,18 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
 
 <section class="section">
   <div class="container">
-    <h2>One platform. Multiple products.</h2>
-    <p class="muted">Start with one workflow — expand when you’re ready.</p>
-
+    <h2>One lab, one goal, diverse impact.</h2>
+    <p class="muted">We choose to not look the other way.</p>
     <div class="cards">
-      <div class="card">
-        <h3>CHAI Procurement</h3>
-        <p>Be the customer’s advocate in vendor conversations. Ask better questions and evaluate faster.</p>
-        <a class="link" href="{{ '/solutions/' | relative_url }}">Learn more →</a>
-      </div>
-      <div class="card">
-        <h3>CHAI Research</h3>
-        <p>Turn messy inputs into structured, cited briefs your team can act on.</p>
-        <a class="link" href="{{ '/platform/' | relative_url }}">See how →</a>
-      </div>
       <div class="card">
         <h3>CHAI Blend (Books)</h3>
         <p>Explain *why* readers love a book — beyond star ratings — using interpretable signals.</p>
         <a class="link" href="{{ '/resources/' | relative_url }}">Read more →</a>
+      </div>
+      <div class="card">
+        <h3>CHAI XYZ</h3>
+        <p>We have more on the way.</p>
+        <a class="link" href="{{ '/platform/' | relative_url }}">See how →</a>
       </div>
     </div>
   </div>
