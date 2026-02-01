@@ -7,46 +7,14 @@ description: "CHAI Labs — AI products that help teams decide, procure, and shi
 <section class="hero">
   <div class="container hero__grid">
     <div class="hero__copy">
-      <div class="pill">People + AI: succeeding together</div>
-      <h1>AI products that make complex decisions feel simple.</h1>
+      <div class="pill">Bringing People & AI closer together</div>
+      <h1>CHAI Labs - products designed to be warm and spicy.</h1>
       <p class="lead">
-        CHAI Labs builds practical AI tools for procurement, research, and knowledge work —
-        with clear outputs, auditability, and real business impact.
+        CHAI Labs builds practical AI solutions designed to help communities flourish.
       </p>
       <div class="hero__actions">
-        <a class="btn btn--lg" href="{{ '/contact/' | relative_url }}">Request a demo</a>
-        <a class="btn btn--ghost btn--lg" href="{{ '/platform/' | relative_url }}">Explore the platform</a>
-      </div>
-
-      <div class="trust">
-        <span class="muted">Built for teams that value clarity:</span>
-        <div class="trust__logos">
-          <span class="logo-chip">Hospitals</span>
-          <span class="logo-chip">Publishers</span>
-          <span class="logo-chip">IT & Security</span>
-          <span class="logo-chip">Operations</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero__visual">
-      <div class="ui-card ui-card--a">
-        <div class="ui-title">Procurement Copilot</div>
-        <div class="ui-row"><span class="dot"></span> Suggested questions</div>
-        <div class="ui-row"><span class="dot"></span> Risk & compliance flags</div>
-        <div class="ui-row"><span class="dot"></span> Decision-ready summary</div>
-      </div>
-
-      <div class="ui-card ui-card--b">
-        <div class="ui-title">Insights</div>
-        <div class="chart"></div>
-        <div class="ui-meta muted">Trend: cycle time ↓, confidence ↑</div>
-      </div>
-
-      <div class="ui-card ui-card--c">
-        <div class="ui-title">Agent</div>
-        <div class="bubble">“Compare Vendor A vs Vendor B for HIPAA + SOC 2 readiness.”</div>
-        <div class="bubble bubble--alt">“Here’s a scoring rubric and the top gaps.”</div>
+        <a class="btn btn--lg" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+        <a class="btn btn--ghost btn--lg" href="{{ '/platform/' | relative_url }}">Review the portfolio</a>
       </div>
     </div>
   </div>
