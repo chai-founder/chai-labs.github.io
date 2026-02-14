@@ -8,18 +8,18 @@
     <nav class="nav__links">
       <a href="{{ '/' | relative_url }}">Lab</a>
       <div class="dropdown">
-        <a href="{{ '/projects/' | relative_url }}" class="dropdown__trigger">
+        <a href="{{ '/projects/' | relative_url }}" class="dropdown__trigger" aria-haspopup="true" aria-expanded="false">
           Projects
           <span class="caret">▾</span>
         </a>
 
-      <div class="dropdown__menu">
-        <a href="{{ '/projects/' | relative_url }}" class="dropdown__item dropdown__all">
+      <div class="dropdown__menu" role="menu" aria-label="Projects menu">
+        <a href="{{ '/projects/' | relative_url }}" class="dropdown__item dropdown__all" role="menuitem">
           View All Projects →
         </a>
         <div class="dropdown__divider"></div>
         
-        <a href="{{ '/the-blend/' | relative_url }}" class="dropdown__item">
+        <a href="{{ '/the-blend/' | relative_url }}" class="dropdown__item" role="menuitem">
           The Blend
           <span class="dropdown__meta">AI Book Intelligence</span>
         </a>

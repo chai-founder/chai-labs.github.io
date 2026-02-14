@@ -322,7 +322,7 @@ h1 {
 }
 
 /* =========================================================
-   Dropdown Navigation
+   Dropdown Navigation (more stable hover)
    ========================================================= */
 
 .dropdown {
@@ -330,10 +330,17 @@ h1 {
   display: inline-block;
 }
 
+/* Make the trigger a reliable hover target */
 .dropdown__trigger {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 8px 10px;              /* adds a little hover area */
+  border-radius: var(--radius-sm);
+}
+
+.dropdown__trigger:hover {
+  background: rgba(255,255,255,0.04);
 }
 
 .caret {
@@ -341,25 +348,45 @@ h1 {
   opacity: 0.7;
 }
 
-/* Dropdown container */
+/* Use visibility/opacity instead of display:none */
 .dropdown__menu {
   position: absolute;
-  top: 120%;
+  top: calc(100% + 8px);          /* spacing below trigger */
   left: 0;
-  min-width: 260px;
+  min-width: 280px;
   padding: 12px;
   background: var(--clr-surface-tonal-a0);
   border-radius: var(--radius-md);
   border: 1px solid var(--border-subtle);
   box-shadow: var(--shadow-lg);
-  display: none;
-  flex-direction: column;
   z-index: 100;
+
+  /* Hidden state */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 140ms ease, transform 140ms ease, visibility 0ms linear 140ms;
+  pointer-events: none;           /* prevent accidental hover loss */
 }
 
-/* Show on hover */
-.dropdown:hover .dropdown__menu {
-  display: flex;
+/* Hover buffer to “bridge” the gap between trigger and menu */
+.dropdown__menu::before {
+  content: "";
+  position: absolute;
+  top: -10px;                     /* invisible strip above menu */
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+/* Show menu when hovering anywhere over dropdown, or using keyboard focus */
+.dropdown:hover .dropdown__menu,
+.dropdown:focus-within .dropdown__menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: opacity 140ms ease, transform 140ms ease;
+  pointer-events: auto;
 }
 
 /* Items */
@@ -370,7 +397,6 @@ h1 {
   border-radius: var(--radius-sm);
   color: var(--text-primary);
   font-weight: 600;
-  transition: background 0.15s ease;
 }
 
 .dropdown__item:hover {
@@ -394,4 +420,5 @@ h1 {
   font-weight: 700;
   color: var(--clr-primary-a40);
 }
+
 
