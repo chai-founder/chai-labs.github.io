@@ -1,10 +1,15 @@
 <header class="nav">
   <div class="container nav__inner">
-    <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand__mark">◉</span>
-      <span class="brand__text">CHAI Labs</span>
-    </a>
+     <a class="brand" href="{{ '/' | relative_url }}">
+        <img 
+          src="{{ '/assets/img/chai-logo.png' | relative_url }}" 
+          alt="CHAI Labs Logo"
+          class="brand__logo"
+        />
+        <span class="brand__text">CHAI Labs</span>
+      </a>
 
+    
     <nav class="nav__links">
       <a href="{{ '/' | relative_url }}">Lab</a>
       <div class="dropdown">
