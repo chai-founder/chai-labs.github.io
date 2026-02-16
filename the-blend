@@ -1,0 +1,74 @@
+---
+layout: default
+title: the-blend
+description: "CHAI Labs — AI products that help teams decide, procure, and ship faster."
+permalink: /the-blend/
+---
+
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <div class="pill">Quantifying how we admire books</div>
+      <h1>The Blend</h1>
+      <p class="lead">
+        Giving publishers quantifiable insights on how readers buy and read.
+         <!-- CHAI Labs builds practical AI solutions designed to help communities flourish....-->
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--lg" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+        <a class="btn btn--ghost btn--lg" href="{{ '/platform/' | relative_url }}">Review the portfolio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>One lab, one goal, diverse impact.</h2>
+    <p class="muted">We choose to not look the other way.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>The Blend</h3>
+        <p>The Blend is our first impactful solution designed to change the way we decide our next book.</p>
+        <a class="link" href="{{ '/resources/' | relative_url }}">See how we are changing the industry →</a>
+      </div>
+      <div class="card">
+        <h3>CHAI XYZ</h3>
+        <p>We have more on the way.</p>
+        <a class="link" href="{{ '/platform/' | relative_url }}">See how →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container split">
+    <div>
+      <h2>The CHAI tao</h2>
+      <p class="muted">
+        Love and compassion.
+      </p>
+      <ul class="list">
+        <li><strong>Love</strong> — keep sources and rationale attached to outputs</li>
+        <li><strong>Compassion</strong> — adapt to your rubric and policies</li>
+        <li><strong>Community</strong> — shorten cycles without sacrificing quality</li>
+      </ul>
+    </div>
+    <div class="quote">
+      <div class="quote__text">“This is the first tool that feels like it’s on *our* side during procurement.”</div>
+      <div class="quote__meta muted">— Example customer, ops lead</div>
+    </div>
+  </div>
+</section>
+
+<!--
+<section class="section">
+  <div class="container cta">
+    <div>
+      <h2>See it on your workflow</h2>
+      <p class="muted">Bring a real vendor deck, policy doc, or requirements list. We’ll walk through it together.</p>
+    </div>
+    <a class="btn btn--lg" href="{{ '/contact/' | relative_url }}">Request a demo</a>
+  </div>
+</section>
+--->
